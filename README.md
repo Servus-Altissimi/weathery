@@ -2,7 +2,7 @@
 
 [![Crates.io](https://img.shields.io/crates/v/weathery.svg)](https://crates.io/crates/weathery)
 [![Downloads](https://img.shields.io/crates/d/weathery.svg)](https://crates.io/crates/weathery)
-[![License](https://img.shields.io/crates/l/weathery.svg)](https://github.com/VG-dev1/weathery/blob/main/LICENSE.md)
+[![License](https://img.shields.io/crates/l/weathery.svg)](https://github.com/VG-dev1/weathery/blob/main/LICENSE)
 
 weathery is a terminal weather app with dynamically animated ANSI cityscapes.
 

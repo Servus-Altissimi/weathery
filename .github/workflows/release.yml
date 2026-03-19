@@ -18,48 +18,48 @@ jobs:
         include:
           - os: ubuntu-latest
             target: x86_64-unknown-linux-gnu
-            artifact_name: weathr
-            asset_name: weathr-linux-amd64
+            artifact_name: weathery
+            asset_name: weathery-linux-amd64
             use_cross: true
           - os: ubuntu-latest
             target: aarch64-unknown-linux-gnu
-            artifact_name: weathr
-            asset_name: weathr-linux-arm64
+            artifact_name: weathery
+            asset_name: weathery-linux-arm64
             use_cross: true
           - os: macos-latest
             target: x86_64-apple-darwin
-            artifact_name: weathr
-            asset_name: weathr-macos-amd64
+            artifact_name: weathery
+            asset_name: weathery-macos-amd64
             use_cross: false
           - os: macos-latest
             target: aarch64-apple-darwin
-            artifact_name: weathr
-            asset_name: weathr-macos-arm64
+            artifact_name: weathery
+            asset_name: weathery-macos-arm64
             use_cross: false
           - os: windows-latest
             target: x86_64-pc-windows-msvc
-            artifact_name: weathr.exe
-            asset_name: weathr-windows-amd64.exe
+            artifact_name: weathery.exe
+            asset_name: weathery-windows-amd64.exe
             use_cross: false
           - os: windows-latest
             target: aarch64-pc-windows-msvc
-            artifact_name: weathr.exe
-            asset_name: weathr-windows-arm64.exe
+            artifact_name: weathery.exe
+            asset_name: weathery-windows-arm64.exe
             use_cross: false
           - os: ubuntu-latest
             target: x86_64-unknown-freebsd
-            artifact_name: weathr
-            asset_name: weathr-freebsd-amd64
+            artifact_name: weathery
+            asset_name: weathery-freebsd-amd64
             use_cross: true
           - os: ubuntu-latest
             target: x86_64-unknown-linux-musl
-            artifact_name: weathr
-            asset_name: weathr-linux-musl-amd64
+            artifact_name: weathery
+            asset_name: weathery-linux-musl-amd64
             use_cross: true
           - os: ubuntu-latest
             target: aarch64-unknown-linux-musl
-            artifact_name: weathr
-            asset_name: weathr-linux-musl-arm64
+            artifact_name: weathery
+            asset_name: weathery-linux-musl-arm64
             use_cross: true
 
     steps:
